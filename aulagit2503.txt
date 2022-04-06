@@ -1,0 +1,18 @@
+ORDEM DE PROGRAMAÇÃO DO GIT HUB
+
+-INICIO DA AULA: 
+
+ > git clone (cola o codigo do repositório)
+
+Logo após ele ja abre nosso repositório, porém como estou no PC pessoal não precisa disso. Pode-se abrir direto no VsCode o terminal do git:
+
+> clicar na pasta do projeto com o botão direito
+> clicar na opção: Open in Integrated Terminal (vai abrir direto e só fazer os próximos passos por lá)
+
+- FINAL DA AULA:
+
+> git status
+> git add .
+> git commit -m '(comentario dentro)'
+> git push
+> git status para confirmar

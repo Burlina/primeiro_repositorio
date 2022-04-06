@@ -1,0 +1,115 @@
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   feira.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git add .
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   feira.txt
+
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git commit - m' adicionando mais itens ao arquivo'
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm adicionando mais itens ao arquivo' did not match any file(s) known to git
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ ^C
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git commit -m 'adicionando mais itens ao arquivo'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'nathi@Burlina.(none)')
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git config --global user.email "nathalia.marques@sptech.school"
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git config --global user.name "Burlina"
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git push
+$ git status
+fatal: helper error (-1073741510): Unknown
+
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   feira.txt
+
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git config --global user.email "nathalia.marques@sptech.school"
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git config --global user.name "Burlina"
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   feira.txt
+
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git push
+Everything up-to-date
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git add .
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git commit -m "caldo de cana adicionado"
+[main 427fe46] caldo de cana adicionado
+ 1 file changed, 4 insertions(+)
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Burlina/primeiro_repositorio.git
+   9d48d8b..427fe46  main -> main
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$ ^C
+
+nathi@Burlina MINGW64 ~/OneDrive/Documentos/P&I/primeiro_repositorio (main)
+$
